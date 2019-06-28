@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AddCoursePage.java&apos; to &apos;AMavenProject/src/test/java/com.secondMaven.pages&apos;&#x0A;- Original project: &apos;TestNGFramework&apos;&#x0A;- Destination element: &apos;AMavenProject/src/test/java/com.secondMaven.pages&apos;&#x0A;- Original element: &apos;com.syntax.pages.AddCoursePage.java&apos;" description="Copy compilation unit" destination="=AMavenProject/src\/test\/java&lt;com.secondMaven.pages" element1="/src\/test\/java&lt;com.syntax.pages{AddCoursePage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1561597668845" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,25 @@
+package com.class7;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// 
+
+	
+	boolean workDay=true;
+	
+	int day=7;
+	
+	while(day<=5) {
+		System.out.println("I need a day off");
+	}if (day==6 || day==7) {
+		System.out.println();
+	}
+	day++;
+			
+	
+	
+	
+	}
+
+}

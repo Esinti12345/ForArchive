@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="AMavenProject" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.secondMaven.runners.TestRunner" time="0.056">
+    <testsuite name="Feature: Add Course" time="0.055">
+      <testcase name="Add Course from example list" classname="Add Course" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "I logged in into OrangeHrm to add a course" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Training link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Courses link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Add Course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I provide "Science" and "j" ..." is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on save course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I see successfully save text" is undefined
+
+</skipped>
+      </testcase>
+      <testcase name="Add Course from example list" classname="Add Course" time="0.001">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "I logged in into OrangeHrm to add a course" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Training link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Courses link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Add Course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I provide "Social Studies" and "d" ..." is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on save course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I see successfully save text" is undefined
+
+</skipped>
+      </testcase>
+      <testcase name="Add Course from example list" classname="Add Course" time="0.003">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "I logged in into OrangeHrm to add a course" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Training link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Courses link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Add Course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I provide "ELA" and "r" ..." is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on save course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I see successfully save text" is undefined
+
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

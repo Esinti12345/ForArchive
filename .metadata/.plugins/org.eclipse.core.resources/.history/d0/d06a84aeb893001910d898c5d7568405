@@ -1,0 +1,45 @@
+package com.secondMaven.steps;
+
+import com.secondMaven.pages.LoginPage;
+import com.secondMaven.utils.CommonMethods;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginSteps extends CommonMethods{
+	
+	@Given("I navigated to OrangeHrm")
+	public void i_navigated_to_OrangeHrm() {
+	    setUp();
+	   
+	}
+
+	@Given("I see OrangeHrm logo")
+	public void i_see_OrangeHrm_logo() {
+LoginPage login=new LoginPage();
+boolean isDisplayed= login.logo.isDisplayed();
+	}
+
+	@When("I enter valid username and password")
+	public void i_enter_valid_username_and_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("i Click login button")
+	public void i_Click_login_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Then("I successfully logged in")
+	public void i_successfully_logged_in() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+
+
+
+}

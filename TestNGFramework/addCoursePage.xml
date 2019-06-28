@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Add Course Suite">
+
+	<listeners>
+		<listener class-name="com.syntax.utils.Listeners" />
+	</listeners>
+
+	<test  name="Add Course Test">
+		<classes>
+			<class name="com.syntax.testcases.AddCoursePageTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

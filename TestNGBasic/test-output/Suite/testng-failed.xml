@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="2" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.class5.SauceDemo">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testUsers" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.class5.SauceDemo -->
+      <class name="com.class5.Task_solution">
+        <methods>
+          <include name="testUsers"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.class5.Task_solution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

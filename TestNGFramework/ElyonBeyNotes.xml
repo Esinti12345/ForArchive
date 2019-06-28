@@ -1,0 +1,23 @@
+When using Page Object Model, you can split the test from finding elements in a page.
+Here are the java file I added or updated yesterday:
+
+HomePage.java
+In HomePage.java we added a couple of WebElement variables that we’ll use to perform an action in our test.
+
+AddCoursePage.java
+We added this class in order to find the WebElements that we need in order to add a course.
+
+AddCoursePageTest.java
+This is the real test. After logging in and clicking on Add Course, we add the course data and then we save.
+Please note test.pass or test.info commands that print a log on the report that will be generated.
+I added a int a = 3/0 command on purpose to make the test fail and take the screenshot. The listener will take care of taking the screenshot.
+
+BaseClass.java
+I added a method named getCurrentTimeUsingDate() to use in the name of the report.
+htmlReport = new ExtentHtmlReporter(Constants.REPORT_FILEPATH + getCurrentTimeUsingDate() + ".html");
+
+Constants.java
+I removed .html from REPORT_FILEPATH variable
+
+add-course-test.xml
+We created an xml file that will be used for the test. We have added the listener to take care of logging.

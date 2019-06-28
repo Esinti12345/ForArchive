@@ -1,0 +1,13 @@
+Feature: Handling Alerts
+
+Scenario: Handling alerts
+
+Given: I navigated to HerOkuApp
+When I login to OrangeHr
+And I clicked onJS Alert
+And I swicth to Alert
+And I click Ok button on the Alert
+When I come back to Alerts page
+And I clicked Js Confirm Alert
+And I switch to Alert 
+And I click on Cancel Button

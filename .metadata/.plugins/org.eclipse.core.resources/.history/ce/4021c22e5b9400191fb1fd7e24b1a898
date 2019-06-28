@@ -1,0 +1,17 @@
+package com.secondMaven.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AlertPage {
+	
+	@FindBy (xpath="//a[text()='JavaScript Alerts']")
+	public WebElement alertBtn;
+	
+	@FindBy (xpath="//button[text()='Click for JS Alert']")
+	public WebElement jsAlertBtn;
+	
+	@FindBy (xpath="//button[text()='Click for JS Confirm']")
+	public WebElement jsConfirmBtn;
+	
+}

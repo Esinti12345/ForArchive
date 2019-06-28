@@ -1,0 +1,27 @@
+package com.class7;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+	
+		int a=1;
+		
+		while (a<10) {
+			System.out.println("Good morning");
+			a++;
+		}
+
+		
+		int b=0;
+		while(b<5) {
+			System.out.println("I am inside while loop " + b);
+			b++;
+		}
+		
+		System.out.println("I am outside of while loop");
+		
+		
+		
+	}
+
+}

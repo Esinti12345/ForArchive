@@ -1,0 +1,19 @@
+#Author: syntax team     //john.smith@wellfargo.com
+Feature: Add Employee
+
+Scenario Outline: Add Employee
+//Given I navigated to OrangeHrm  site
+Given I logged in into OrangeHrm
+When I click on PIM link
+And I click on  Add Employee link
+And I provide Employee details "<fName>" and "<mName>" and "<lName>" and "<location>"
+And I click on save button
+Then I see employee is added successfully "<fName>" and "<lName>"  
+And I close browser
+
+Examples:
+|fName|mName|lName|location|
+|Ali  |B  | Smart | HQ|
+|Veli| H| Hadi| West Office|
+|John |White |North Office|
+

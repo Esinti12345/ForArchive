@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="AMavenProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.secondMaven.runners.TestRunner" time="0.0">
+    <testsuite name="Feature: Add Course" time="0.0">
+      <testcase name="Add Course" classname="Add Course" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "I logged in into OrangeHrm" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Training link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Courses link" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on Add Course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I provide CourseTitle and Coordinator" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I click on save course button" is undefined
+
+cucumber.runtime.junit.UndefinedThrowable: The step "I see successfully save text" is undefined
+
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

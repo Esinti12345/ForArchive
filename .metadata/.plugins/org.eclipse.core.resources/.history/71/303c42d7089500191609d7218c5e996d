@@ -1,0 +1,18 @@
+package com.secondMaven.runners;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="src/test/resources/features"
+		,glue="src/test/java/com/secondMaven/steps"
+		//,dryRun=true
+		//,monochrome=true
+		//,tags= {"@login"}
+		)
+
+public class TestRunner  { 
+
+}
