@@ -1,9 +1,0 @@
-package com.secondMaven.steps;
-
-import cucumber.api.java.en.When;
-
-public class AlertPageSteps {
-	
-	
-
-}

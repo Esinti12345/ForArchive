@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="AMavenProject" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.secondMaven.runners.TestRunner" time="6.437">
-    <testsuite name="Feature: Add Course" time="6.437">
-      <testcase name="Add Course from map" classname="Add Course" time="6.437"/>
-    </testsuite>
-  </testsuite>
-</testrun>

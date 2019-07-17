@@ -82,9 +82,11 @@ public class AddEmployeeSteps extends CommonMethods {
 		for (String label : expectedLabels) {
 			System.out.println(label);
 		}
+		
 		// create an empty arraylist where we store labels text
 		List<String> actualLabels = new ArrayList<String>();
 		Thread.sleep(3000);
+		
 		// get all label elements
 		List<WebElement> labelList = emp.addEmpLabels;
 		for (WebElement label : labelList) {

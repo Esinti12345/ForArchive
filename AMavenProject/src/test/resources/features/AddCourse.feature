@@ -39,3 +39,14 @@ Feature: Add Course
       | Social Studies | d           |
       | ELA            | r           |
       
+      
+      @temp
+  Scenario: Add Course Labels Verification
+    Then I see following labels in Add Course
+      | First Name           |
+      | Middle Name          |
+      | Last Name            |
+      | Employee Id          |
+      | Location             |
+      | Create Login Details |
+      

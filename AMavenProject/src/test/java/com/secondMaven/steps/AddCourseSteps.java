@@ -75,6 +75,8 @@ public class AddCourseSteps extends CommonMethods {
 
 	@When("I provide CourseTitle and Coordinator from below")
 	public void i_provide_CourseTitle_and_Coordinator_from_below(DataTable dataTable) throws InterruptedException {
+		
+		
 		List<Map<String, String>> mapList = dataTable.asMaps();
 		for (Map<String, String> map : mapList) {
 			//System.out.println(map.get("CourseTitle") + " => " + map.get("Coordinator"));

@@ -176,8 +176,11 @@ public class CommonMethods extends BaseClass {
 
 	public static void takeScreenshot(String folderName, String fileName) {
 		TakesScreenshot ts = (TakesScreenshot) driver;
+		
 		File scr = ts.getScreenshotAs(OutputType.FILE);
 
+		
+		//File abc=new File("screenshots/" + folderName + "/" + fileName + ".png");
 		try {
 			FileUtils.copyFile(scr, new File("screenshots/" + folderName + "/" + fileName + ".png"));
 		} catch (IOException e) {

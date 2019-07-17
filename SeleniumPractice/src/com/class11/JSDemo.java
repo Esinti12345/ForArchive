@@ -27,6 +27,7 @@ public class JSDemo extends CommonMethods{
 //		WebElement label=driver.findElement(By.xpath("//label[text()='Automation Tool']"));
 //		js.executeScript("arguments[0].scrollIntoView(true);", label);
 		
+		
 		//click on QTP
 		List<WebElement> toolsChbx=driver.findElements(By.name("tool"));
 		for (WebElement chbox: toolsChbx) {
@@ -46,6 +47,9 @@ public class JSDemo extends CommonMethods{
 		}
 		WebElement el=driver.findElement(By.name("submit"));
 		js.executeScript("arguments[0].click();", el);
+		
+		
+		
 		
 		Thread.sleep(7000);
 		driver.quit();

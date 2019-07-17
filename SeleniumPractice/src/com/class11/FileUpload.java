@@ -1,7 +1,9 @@
 package com.class11;
 
 
-		import org.openqa.selenium.By;
+		import java.awt.Robot;
+
+import org.openqa.selenium.By;
 		import org.testng.annotations.Test;
 
 		import utils.CommonMethods;
@@ -18,6 +20,7 @@ package com.class11;
 				
 				String filePath="/Users/Syntax/Desktop/UploadFile.jpg";
 				driver.findElement(By.id("file-upload")).sendKeys(filePath);
+				
 				driver.findElement(By.id("file-submit")).click();
 				
 				boolean isDisplayed=driver.findElement(By.xpath("//h3[text()='File Uploaded!']")).isDisplayed();
@@ -30,6 +33,8 @@ package com.class11;
 				
 				Thread.sleep(2000);
 				driver.quit();
+				
+			
 
 			}
 		

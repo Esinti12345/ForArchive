@@ -31,6 +31,7 @@ public class ConfigsReader {
 	public static String getProperty(String key) {
 		System.out.println(prop);
 		System.out.println("acessing the key");
+		
 		return prop.getProperty(key);
 	}
 

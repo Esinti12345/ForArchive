@@ -4,12 +4,18 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.foursquare"/>
+			<item value="ZExercise"/>
 			<item value="aaa"/>
 		</list>
 		<list key="name">
+			<item value="Foursquare"/>
+			<item value="ZExerciseMaven"/>
 			<item value="fgdfg"/>
 		</list>
 		<list key="artifactId">
+			<item value="Foursquare"/>
+			<item value="ZExercise"/>
 			<item value="fdsf"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -46,6 +52,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/ahmetorhan/eclipse-workspace"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
